@@ -21,6 +21,9 @@ jobs:
     - name: check node version
       run: node --version
 
+    - name: running python script sample.py
+      run: python sampel.py
+
     # - name: Set up Python 3.10
     #   uses: actions/setup-python@v3
     #   with:
